@@ -3,9 +3,8 @@ name: CI
 on: [push]
 
 jobs:
-  build:
+  test:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - name: Run a one-line script
-        run: echo "Hello, GitHub Actions!"
+      - name: 21f1003153@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
